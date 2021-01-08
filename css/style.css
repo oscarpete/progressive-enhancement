@@ -11,7 +11,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
-header{
+header h1{
+    text-align: center;
+    background: yellow;
+}
+header p{
     text-align: center;
 }
 h1 {
@@ -50,6 +54,27 @@ section{
     width: 50%;
 }
 
+.italicize{
+    font-style: italic;
+    border-left-style: solid;
+    border-left-color: #92a8d1;
+
+}
+.italicize-f{
+    font-style: italic;
+    border-left-style: solid;
+    border-left-color: yellow;
+}
+
+.bad {
+    text-transform: uppercase;
+    text-color: red;
+}
+.good {
+    text-transform: uppercase;
+}
+
+
 table{
 
 }
@@ -59,6 +84,7 @@ blockquote{
     width: 50%;
     margin: auto;
     font-size: 160%;
+    font-style: italic;
     padding-left: 3px;
 
 }
