@@ -1,0 +1,74 @@
+body {
+    background: -webkit-linear-gradient(90deg, rgb(25, 28, 30), rgb(17, 32, 99));
+    background: linear-gradient(90deg, rgb(25, 28, 30), rgb(17, 32, 99));
+    /*background-image: url("https://i.pinimg.com/originals/2b/55/d0/2b55d065b72e1bb9cf8c3adad23da395.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    color: #F8F8F8;
+    max-width: 90%;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+header{
+    text-align: center;
+}
+h1 {
+    color: #333333;
+    text-align: center;
+    text-shadow: 2px 2px 5px antiquewhite;
+}
+/* unvisited link */
+a:link {
+    color: deepskyblue;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: dodgerblue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+}
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table{
+
+}
+
+
+blockquote{
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    padding-left: 3px;
+
+}
+#quote{
+    margin: auto;
+    padding: 80px 30px;
+    border: 3px solid black;
+    background: rgba(59, 20, 20, 0.3)
+}
+
+footer {
+    text-align: center;
+}
