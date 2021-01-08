@@ -11,76 +11,128 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
-header h1{
+
+header h1 {
     text-align: center;
     background: yellow;
 }
-header p{
+
+header p {
     text-align: center;
 }
+
 h1 {
     color: #333333;
     text-align: center;
     text-shadow: 2px 2px 5px antiquewhite;
 }
-/* unvisited link */
-a:link {
-    color: deepskyblue;
-}
 
-/* visited link */
-a:visited {
-    color: red;
-}
 
-/* mouse over link */
-a:hover {
-    color: dodgerblue;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
-
-section{
+section {
     width: 80%;
     margin: auto;
 }
-.foto{
+
+.foto {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-.italicize{
+.italicize {
     font-style: italic;
     border-left-style: solid;
     border-left-color: #92a8d1;
 
 }
-.italicize-f{
+
+.italicize-f {
     font-style: italic;
     border-left-style: solid;
     border-left-color: yellow;
 }
 
-.bad {
+a.bad:link {
+
     text-transform: uppercase;
-    text-color: red;
+    background-color: #333333;
 }
-.good {
+
+a.bad:link {
+    color: red;
     text-transform: uppercase;
+    background-color: #333333;
+}
+
+a.bad:visited {
+    color: red;
+}
+
+a.bad:hover {
+    color: #ffcc00;
 }
 
 
-table{
+a.good:link {
 
+    text-transform: uppercase;
+    background-color: #333333;
+}
+
+a.good:link {
+    color: green;
+    text-transform: uppercase;
+    background-color: #333333;
+}
+
+a.good:visited {
+    color: green;
+}
+
+a.good:hover {
+    color: #ffcc00;
 }
 
 
-blockquote{
+table {
+    border: 1px solid whitesmoke;
+    color: black;
+    border-collapse: collapse;
+    width: 45%;
+
+
+}
+caption{
+    color: #F8F8F8;
+}
+table, th, td {
+    padding: 15px;
+    text-align: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: grey;}
+/* unvisited link */
+a.footerish:link {
+    color: cornflowerblue;
+}
+
+/* visited link */
+a.footerish:visited {
+    color: red;
+}
+
+/* mouse over link */
+a.footerish:hover {
+    color: dodgerblue;
+}
+
+/* selected link */
+a.footerish:active {
+    color: blue;
+}
+
+blockquote {
     width: 50%;
     margin: auto;
     font-size: 160%;
@@ -88,11 +140,15 @@ blockquote{
     padding-left: 3px;
 
 }
-#quote{
+
+#quote {
     margin: auto;
     padding: 80px 30px;
     border: 3px solid black;
     background: rgba(59, 20, 20, 0.3)
+}
+#boldi{
+    font-weight: bold;
 }
 
 footer {
