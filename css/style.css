@@ -49,6 +49,7 @@ section {
     border-left-style: solid;
     border-left-color: #92a8d1;
     background: rgba(59, 20, 20, 0.3);
+    font-size: 160%;
 
 }
 
@@ -57,6 +58,7 @@ section {
     border-left-style: solid;
     border-left-color: yellow;
     background: rgba(59, 20, 20, 0.3);
+    font-size: 160%;
 }
 
 a.bad:link {
