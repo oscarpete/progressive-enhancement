@@ -65,13 +65,13 @@ section {
 
 a.bad:link {
 
-    text-transform: uppercase;
+    text-transform:  capitalize;
     background-color: #333333;
 }
 
 a.bad:link {
     color: red;
-    text-transform: uppercase;
+    text-transform:  capitalize;
     background-color: #333333;
 }
 
@@ -86,13 +86,13 @@ a.bad:hover {
 
 a.good:link {
 
-    text-transform: uppercase;
+    text-transform: capitalize;
     background-color: #333333;
 }
 
 a.good:link {
     color: green;
-    text-transform: uppercase;
+    text-transform: capitalize;
     background-color: #333333;
 }
 
