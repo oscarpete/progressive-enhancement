@@ -48,6 +48,7 @@ section {
     font-style: italic;
     border-left-style: solid;
     border-left-color: #92a8d1;
+    padding-left: 30px;
     background: rgba(59, 20, 20, 0.3);
     font-size: 160%;
 
@@ -57,6 +58,7 @@ section {
     font-style: italic;
     border-left-style: solid;
     border-left-color: yellow;
+    padding-left: 30px;
     background: rgba(59, 20, 20, 0.3);
     font-size: 160%;
 }
